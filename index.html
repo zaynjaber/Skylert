@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- FONTS -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/icon.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <!--  -->
+    <iframe class="moving-clouds" src="clouds.html" scrolling="no"></iframe>
+    <!--  -->
+    <form class="col" id="search-form">
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          aria-describedby="searchCity"
+          placeholder="Search city..."
+          class="search-form"
+          autocomplete="off"
+        />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+    </form>
+    <!--  -->
+
+    <div class="weather">
+      <!-- <div class="left"> -->
+      <div class="sun">
+        <img src="assets/sunny.png" alt="" />
+      </div>
+      <!-- </div> -->
+
+      <!-- <div class="right"> -->
+      <div class="content">
+        <div class="degree">--°C</div>
+        <div class="condition">----</div>
+        <div class="location">City, Country</div>
+        <div class="quality">
+          <div class="info-box">
+            <img src="assets/humidity.png" alt="" />
+            <div class="">
+              <p class="humidity">--%</p>
+              <p class="name">humidity</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <img style="filter: invert(1)" src="assets/wind-speed.png" alt="" />
+            <div class="">
+              <p class="wind-speed">-- m/s</p>
+              <p class="name">Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rain">
+        <div class="drop"></div>
+      </div>
+      <!-- </div> -->
+      <script type="module" src="js/script.js"></script>
+    </div>
+  </body>
+</html>
