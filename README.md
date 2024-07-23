@@ -12,5 +12,5 @@ Skylert is a simple weather application that provides real-time weather updates 
 
 ## How It Works
 
-SkyAlert uses a serverless function to securely fetch weather data from the OpenWeatherMap API, ensuring the API key remains protected.
+Skylert uses a serverless function to securely fetch weather data from the OpenWeatherMap API, ensuring the API key remains protected.
 The app is built with HTML, CSS, and JavaScript, and deployed on Netlify.
