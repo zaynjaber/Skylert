@@ -60,7 +60,7 @@ function getWeatherIcon(condition) {
     case "snow":
       return "snowy.png";
     default:
-      return "sunny.png"; // Default icon
+      return "unknown.png"; // Default icon
   }
 }
 
